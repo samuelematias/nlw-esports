@@ -1,0 +1,10 @@
+#+begin vars
+:address = http://localhost:3333
+:headers = <<
+User-Agent: Emacs Client
+#+end vars
+
+#+begin ads
+GET :address/ads
+:headers
+#+end ads
