@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     },
     title: {
         color: THEME.COLORS.TEXT,
-        fontSizeL: THEME.FONT_SIZE.LG,
+        fontSize: THEME.FONT_SIZE.LG,
         fontFamily: THEME.FONT_FAMILY.BLACK,
     },
     subtitle: {
