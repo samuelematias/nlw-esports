@@ -1,10 +1,38 @@
-#+begin vars
+#+begin Variables
 :address = http://localhost:3333
+:gameId = c65721b2-8114-4766-85c4-4b74885a701e
+:adId = 29399930-d620-4585-a694-8aec1845e089
 :headers = <<
 User-Agent: Emacs Client
-#+end vars
+#+end Variables
 
-#+begin ads
-GET :address/ads
+#+begin List Games
+GET :address/games
 :headers
-#+end ads
+#+end List Games
+
+#+begin Create Ad
+POST :address/games/:gameId/ads
+:headers
+Content-Type: application/json
+
+{
+  "name" : "your_nickname",
+  "yearsPlaying": 2,
+  "discord":"your_discord_nickname_with_id",
+  "weekDays": [0, 1, 3],
+  "hourStart": "08:00",
+  "hourEnd": "00:00",
+  "useVoiceChannel": false
+}
+#+end Create Ad
+
+#+begin List Ads by Game
+GET :address/games/:gameId/ads
+:headers
+#+end List Ads by Game
+
+#+begin Get Discord by Ad
+GET :address/ads/:adId/discord
+:headers
+#+end Get Discord by Ad
