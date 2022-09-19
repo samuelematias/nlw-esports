@@ -1,4 +1,5 @@
 import * as Notifications from 'expo-notifications';
+
 /// Remote Push notifications (https://expo.dev/notifications)
 //
 /// Emulador/Simulator: Only Android.

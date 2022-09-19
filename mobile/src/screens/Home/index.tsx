@@ -10,11 +10,11 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useNavigation } from '@react-navigation/native';
 
-import logoImg from '../../assets/logo-nlw-esports.png'
-
 import { Background } from '../../components/Background';
 import { GameCard, GameCardProps } from '../../components/GamerCard';
 import { Heading } from '../../components/Heading';
+
+import logoImg from '../../assets/logo-nlw-esports.png'
 
 import { styles } from './styles';
 
