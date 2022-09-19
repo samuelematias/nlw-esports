@@ -16,7 +16,7 @@
    
    - [Demo 📱](#demo-)
    - [Tech Stack 🛠️](#tech-stack-)
-   - [Running the project locally  🔨](#running-the-project-locally-)
+   - [Running the project locally  🔨](#running-the-project-locally--)
    - [How to Contribute 💪🏾](#how-to-contribute-)
    - [Contributors 🚀](#contributors-)
 

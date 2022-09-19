@@ -16,8 +16,8 @@
    
    - [About 📖](#about-)
    - [Functionalities 🛠️](#functionalities-%EF%B8%8F)
-   - [Resources 📋](#resourcese-)
-   - [Running the project locally  🔨](#running-the-project-locally-)
+   - [Resources 📋](#resources-)
+   - [Running the project locally  🔨](#running-the-project-locally--)
    - [How to Contribute 💪🏾](#how-to-contribute-)
    - [Contributors 🚀](#contributors-)
 
