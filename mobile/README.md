@@ -2,7 +2,7 @@
       <img src="../docs/assets/logo.png" width="100" alt="Logo"/>
 </p>
 
-<h1 align="center">NLW eSports</h1>
+<h1 align="center">NLW eSports - Mobile 📱</h1>
 
 <div align="center">
 
