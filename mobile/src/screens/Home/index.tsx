@@ -16,7 +16,10 @@ import { Heading } from '../../components/Heading';
 
 import logoImg from '../../assets/logo-nlw-esports.png'
 
+import { ADDRESS } from '../../utils/constants';
+
 import { styles } from './styles';
+
 
 export function Home() {
     const [games, setGames] = useState<GameCardProps[]>([]);
@@ -28,7 +31,7 @@ export function Home() {
     }
 
     useEffect(() => {
-        fetch('http://192.168.100.11:3333/games')
+        fetch(`${ADDRESS}/games`)
             .then(response => response.json())
             .then(data => setGames(data))
     }, []);

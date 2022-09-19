@@ -29,9 +29,11 @@ import logoImg from '../../assets/logo-nlw-esports.png';
 
 import { GameParams } from '../../@types/navigation';
 
+import { ADDRESS } from '../../utils/constants';
 import { THEME } from '../../theme';
 
 import { styles } from './styles';
+
 
 export function Game() {
     const [duos, setDuos] = useState<DuoCardProps[]>([]);
@@ -46,13 +48,13 @@ export function Game() {
     }
 
     async function getDiscordUser(adsId: string) {
-        fetch(`http://192.168.100.11:3333/ads/${adsId}/discord`)
+        fetch(`${ADDRESS}/ads/${adsId}/discord`)
             .then(response => response.json())
             .then(data => setDiscordDuoSelected(data.discord));
     }
 
     useEffect(() => {
-        fetch(`http://192.168.100.11:3333/games/${game.id}/ads`)
+        fetch(`${ADDRESS}/games/${game.id}/ads`)
             .then(response => response.json())
             .then(data => setDuos(data));
     }, []);
