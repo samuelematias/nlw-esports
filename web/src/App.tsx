@@ -6,12 +6,14 @@ import {
 import * as Dialog from "@radix-ui/react-dialog";
 import axios from "axios";
 
-import logoImg from "./assets/logo-nlw-esports.svg";
 import { GameBanner } from "./components/GameBanner";
 import { CreateAdBanner } from "./components/CreateAdBanner";
+import { CreateAdModal } from "./components/CreateAdModal";
+
+
+import logoImg from "./assets/logo-nlw-esports.svg";
 
 import "./styles/main.css";
-import { CreateAdModal } from "./components/CreateAdModal";
 
 interface Game {
     id: string;

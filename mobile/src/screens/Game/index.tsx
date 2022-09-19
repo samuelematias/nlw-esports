@@ -30,6 +30,7 @@ import logoImg from '../../assets/logo-nlw-esports.png';
 import { GameParams } from '../../@types/navigation';
 
 import { THEME } from '../../theme';
+
 import { styles } from './styles';
 
 export function Game() {

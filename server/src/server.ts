@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 
 import { PrismaClient } from '@prisma/client';
+
 import { convertHourStringToMinutes } from "./utils/convert-hour-string-to-minutes";
 import { convertMinutesToHourString } from "./utils/convert-minutes-to-hour-string";
 
@@ -14,7 +15,7 @@ const prisma = new PrismaClient({
   log: ['query'],
 });
 
-app.get('/games', async (request, response) => {
+app.get('/games', async (_, response) => {
   const games = await prisma.game.findMany({
     include: {
       _count: {

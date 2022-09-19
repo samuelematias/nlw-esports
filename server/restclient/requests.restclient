@@ -1,6 +1,6 @@
 #+begin Variables
 :address = http://localhost:3333
-:gameId = b372afa5-f3e1-4838-bb87-c487ac4e8c4b
+:gameId = c65721b2-8114-4766-85c4-4b74885a701e
 :adId = 29399930-d620-4585-a694-8aec1845e089
 :headers = <<
 User-Agent: Emacs Client

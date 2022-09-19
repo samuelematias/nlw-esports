@@ -1,6 +1,4 @@
-import {
-    useState,
-} from 'react';
+import { useState } from 'react';
 import {
     View,
     Modal,
@@ -10,6 +8,7 @@ import {
     Alert,
     ActivityIndicator,
 } from 'react-native';
+
 import { MaterialIcons } from '@expo/vector-icons';
 import { CheckCircle } from 'phosphor-react-native';
 import * as Clipboard from 'expo-clipboard';
@@ -17,13 +16,13 @@ import * as Clipboard from 'expo-clipboard';
 import { Heading } from '../Heading';
 
 import { THEME } from '../../theme';
+
 import { styles } from './styles';
 
 interface Props extends ModalProps {
     discord: string;
     onClose: () => void;
 }
-
 
 export function DuoMatch({ discord, onClose, ...rest }: Props) {
     const [isCopping, setIsCopping] = useState(false);

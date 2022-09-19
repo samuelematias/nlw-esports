@@ -9,6 +9,7 @@ import { GameController } from 'phosphor-react-native';
 import { DuoInfo } from '../DuoInfo';
 
 import { THEME } from '../../theme';
+
 import { styles } from './styles';
 
 export interface DuoCardProps {
