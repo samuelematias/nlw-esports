@@ -15,7 +15,7 @@
    <p>
    
    - [Demo 📱](#demo-)
-   - [Tech Stack 🛠️](#tech-stack-)
+   - [Tech Stack 🛠️](#tech-stack-%EF%B8%8F)
    - [Running the project locally  🔨](#running-the-project-locally--)
    - [How to Contribute 💪🏾](#how-to-contribute-)
    - [Contributors 🚀](#contributors-)
