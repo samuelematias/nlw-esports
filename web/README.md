@@ -37,13 +37,13 @@
 
    <p>
 
-  <a href="https://reactjs.org/">react</a><br>
-  <a href="https://www.typescriptlang.org/">typescript</a><br>
-  <a href="https://vitejs.dev/">vite</a><br>
-  <a href="https://tailwindcss.com/">tailwindcss</a><br>
-  <a href="https://www.radix-ui.com/">radix-ui</a><br>
-  <a href="https://postcss.org/">postcss</a><br>
-  <a href="https://axios-http.com/">axios</a><br>
+   - <a href="https://reactjs.org/">react</a><br>
+   - <a href="https://www.typescriptlang.org/">typescript</a><br>
+   - <a href="https://vitejs.dev/">vite</a><br>
+   - <a href="https://tailwindcss.com/">tailwindcss</a><br>
+   - <a href="https://www.radix-ui.com/">radix-ui</a><br>
+   - <a href="https://postcss.org/">postcss</a><br>
+   - <a href="https://axios-http.com/">axios</a><br>
    </p>
 
 ---

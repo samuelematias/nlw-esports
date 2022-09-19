@@ -37,14 +37,14 @@
 
    <p>
 
-  <a href="https://reactnative.dev/">react-native</a><br>
-  <a href="https://www.typescriptlang.org/">typescript</a><br>
-  <a href="https://expo.dev/client">expo</a><br>
-  <a href="https://reactnavigation.org/">react-navigation</a><br>
-  <a href="https://www.npmjs.com/package/react-native-safe-area-context">react-native-safe-area-context</a><br>
-  <a href="https://www.npmjs.com/package/react-native-screens">react-native-screens</a><br>
-  <a href="https://www.npmjs.com/package/react-native-svg">react-native-svg</a><br>
-  <a href="https://www.npmjs.com/package/phosphor-react-native">phosphor-react-native</a><br>
+   - <a href="https://reactnative.dev/">react-native</a><br>
+   - <a href="https://www.typescriptlang.org/">typescript</a><br>
+   - <a href="https://expo.dev/client">expo</a><br>
+   - <a href="https://reactnavigation.org/">react-navigation</a><br>
+   - <a href="https://www.npmjs.com/package/react-native-safe-area-context">react-native-safe-area-context</a><br>
+   - <a href="https://www.npmjs.com/package/react-native-screens">react-native-screens</a><br>
+  -  <a href="https://www.npmjs.com/package/react-native-svg">react-native-svg</a><br>
+   - <a href="https://www.npmjs.com/package/phosphor-react-native">phosphor-react-native</a><br>
    </p>
 
 ---
