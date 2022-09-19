@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/static/v1?label=license&message=MIT&color=8257E6&labelColor=0A1033)](LICENSE)
+[![License](https://img.shields.io/static/v1?label=license&message=MIT&color=8257E6&labelColor=0A1033)](../LICENSE)
 [![NLW](https://img.shields.io/static/v1?label=NLW&message=eSports&color=8257E6&labelColor=0A1033)](https://www.rocketseat.com.br/)
 </div>
 
