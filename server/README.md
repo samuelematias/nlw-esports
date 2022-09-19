@@ -37,11 +37,11 @@
 
    <p>
 
-  <a href="https://nodejs.org/en/">node</a><br>
-  <a href="https://www.typescriptlang.org/">typescript</a><br>
-  <a href="https://expressjs.com/">express</a><br>
-  <a href="https://www.prisma.io/">prisma</a><br>
-  <a href="https://www.npmjs.com/package/cors">cors</a><br>
+   - <a href="https://nodejs.org/en/">node</a><br>
+   - <a href="https://www.typescriptlang.org/">typescript</a><br>
+   - <a href="https://expressjs.com/">express</a><br>
+   - <a href="https://www.prisma.io/">prisma</a><br>
+   - <a href="https://www.npmjs.com/package/cors">cors</a><br>
    </p>
 
 ---
