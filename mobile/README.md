@@ -8,6 +8,7 @@
 
 [![License](https://img.shields.io/static/v1?label=license&message=MIT&color=8257E6&labelColor=0A1033)](../LICENSE)
 [![NLW](https://img.shields.io/static/v1?label=NLW&message=eSports&color=8257E6&labelColor=0A1033)](https://www.rocketseat.com.br/)
+
 </div>
 
 <h2 align="center">Topics 📋</h2>
@@ -30,22 +31,21 @@
   <img alt="demo" width="100%" title="R Component" src="../docs/assets/demo-mobile.gif" />
 </h1>
 
-
 ---
 
 <h2 align="center">Tech Stack 🛠️</h2>
 
    <p>
 
-   - <a href="https://reactnative.dev/">react-native</a><br>
-   - <a href="https://www.typescriptlang.org/">typescript</a><br>
-   - <a href="https://expo.dev/client">expo</a><br>
-   - <a href="https://reactnavigation.org/">react-navigation</a><br>
-   - <a href="https://www.npmjs.com/package/react-native-safe-area-context">react-native-safe-area-context</a><br>
-   - <a href="https://www.npmjs.com/package/react-native-screens">react-native-screens</a><br>
-  -  <a href="https://www.npmjs.com/package/react-native-svg">react-native-svg</a><br>
-   - <a href="https://www.npmjs.com/package/phosphor-react-native">phosphor-react-native</a><br>
-   </p>
+- <a href="https://reactnative.dev/">react-native</a><br>
+- <a href="https://www.typescriptlang.org/">typescript</a><br>
+- <a href="https://expo.dev/client">expo</a><br>
+- <a href="https://reactnavigation.org/">react-navigation</a><br>
+- <a href="https://www.npmjs.com/package/react-native-safe-area-context">react-native-safe-area-context</a><br>
+- <a href="https://www.npmjs.com/package/react-native-screens">react-native-screens</a><br>
+- <a href="https://www.npmjs.com/package/react-native-svg">react-native-svg</a><br>
+- <a href="https://www.npmjs.com/package/phosphor-react-native">phosphor-react-native</a><br>
+</p>
 
 ---
 
@@ -53,64 +53,71 @@
 
 <h3>Backend server 🛣</h3>
 
-   ```
-   First of all, correctly configure the NodeJS development environment on your machine, see https://efficient-sloth-d85.notion.site/Instalando-o-Node-js-25018081f5e1435e970b2a8b35cd15f6.
-   
-   - Clone this repository:
-   $ git clone https://github.com/samuelematias/nlw-esports.git
+```
+First of all, correctly configure the NodeJS development environment on your machine, see https://efficient-sloth-d85.notion.site/Instalando-o-Node-js-25018081f5e1435e970b2a8b35cd15f6.
 
-   - Enter in directory:
-   $ cd nlw-esports
+- Clone this repository:
+$ git clone https://github.com/samuelematias/nlw-esports.git
 
-   - Enter in server directory:
-   $ cd server
+- Enter in directory:
+$ cd nlw-esports
 
-   - For install server dependencies:
-   $ npm install
+- Enter in server directory:
+$ cd server
 
-   - Run the server: 
-    $ npm run dev
+- For install server dependencies:
+$ npm install
 
-   ```
+- Run the server:
+ $ npm run dev
 
-  <h3>Mobile app 📱</h3>
+```
 
-   ```
-   First of all, its necessary stay with the Backend up, so follow the previous Tutorial about Starup the Backend server.
+<h3>Mobile app 📱</h3>
 
-   Second of all, correctly configure the React Native development environment on your machine, see https://reactnative.dev/docs/0.60/enviroment-setup, and the Expo development environment on your machine, see https://efficient-sloth-d85.notion.site/Instalando-Expo-9b0abcb12bd548278e042d00fbde67f2.
+```
+First of all, its necessary stay with the Backend up, so follow the previous Tutorial about Starup the Backend server.
 
-   Third of all, its necessary change the ip address in the constants file (mobile/src/utils/constants.ts), ADDRESS variable, to your ip address, check you ip address running ifconfig in your terminal, but don't replace the last numbers in the address, 3333, this is the server port.
+Second of all, correctly configure the React Native development environment on your machine, see https://reactnative.dev/docs/0.60/enviroment-setup, and the Expo development environment on your machine, see https://efficient-sloth-d85.notion.site/Instalando-Expo-9b0abcb12bd548278e042d00fbde67f2.
 
-   - With the Backend server Up, Enter in the main directory:
-   $ cd nlw-esports
+Third of all, its necessary change the ip address in the constants file (mobile/src/utils/constants.ts), ADDRESS variable, to your ip address, check you ip address running ifconfig in your terminal, but don't replace the last numbers in the address, 3333, this is the server port.
 
-   - Enter in web directory:
-   $ cd mobile
+- With the Backend server Up, Enter in the main directory:
+$ cd nlw-esports
 
-   - For install server dependencies:
-   $ npm install
+- Enter in web directory:
+$ cd mobile
 
-   - Run the server: 
-    $ npm start
-   ```
+- For install server dependencies:
+$ npm install
+
+- Run the server:
+ $ npm start
+
+- Run the simulador/emulator:
+$ yarn ios
+
+  Or
+
+$ yarn android
+```
 
 ---
 
 <h2 align="center">How to Contribute 💪🏾</h2>
 
-   ```
-   - Fork the project 
+```
+- Fork the project
 
-   - Create a new branch with your changes:
-   $ git checkout -b my-feature
+- Create a new branch with your changes:
+$ git checkout -b feat/my-feature
 
-   - Save your changes and create a commit message telling you what you did:
-   $ git commit -m "feature: My new feature"
+- Save your changes and create a commit message telling you what you did:
+$ git commit -m "feat: implement my-feature"
 
-   - Submit your changes:
-   $ git push origin my-feature
-   ```
+- Submit your changes:
+$ git push origin feat/my-feature
+```
 
 ---
 
